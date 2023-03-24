@@ -1,0 +1,54 @@
+.stretch__icon-end {
+    width: 64px;
+    -webkit-animation: pulsing 1s 3;
+    animation: pulsing 1s 3;
+    padding-top: 15px;
+  
+  }
+
+  .icon-end {
+    animation: none;
+  
+  }
+  
+  @-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(1.7, 1.7);
+      transform: scale(1.5, 1.5)
+    }
+  
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+  
+    100% {
+      -webkit-transform: scale(1.7, 1.7);
+      transform: scale(1.7, 1.7);
+    }
+  }
+  
+  @keyframes pulsing {
+    0% {
+      -webkit-transform: scale(1.7, 1.7);
+      transform: scale(1.5, 1.5)
+    }
+  
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+  
+    100% {
+      -webkit-transform: scale(1.7, 1.7);
+      transform: scale(1.7, 1.7);
+    }
+  }
+  
+  
+  @media screen and (max-width: 919px) {
+    .stretch__icon-end {
+      max-width: 56px;
+  
+    }
+  }

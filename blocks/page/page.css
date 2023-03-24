@@ -1,0 +1,24 @@
+.page{
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    min-width: 320px;
+    max-width: 1280px;
+    min-height: 100vh;
+    font-family: "pacifico", "amatic", Arial, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    background-color: #43474d;
+    background-image: url(../../images/48804-cvety_vektor_tekstura_minimalizm.jpg);
+    color: #ffffff;
+    flex-direction: column;
+    padding: 28px 0 24px;
+    
+    
+  
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

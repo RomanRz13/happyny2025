@@ -1,0 +1,120 @@
+.total__container * {
+    box-sizing: border-box;
+}
+.total__container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin: 20px 0;
+}
+.total__card {
+    perspective: 1500px;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-delay: initial;
+    animation: cardIn 1s alternate cubic-bezier(0.87, -0.41, 0.19, 1.44);
+}
+.total__card:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+    
+}
+.total__card_is-opened {
+    transform: rotate(0deg) translate(5px, 0);
+}
+.total__card_is-opened .total__cart-page-front {
+    transform: rotateY(0deg);
+}
+
+.total__card,
+.total__card-page {
+    width: 60px;
+    height: 70px;
+}
+.total__card-page {
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
+    position: absolute;
+    outline: 1px solid transparent;
+}
+.total__cart-page-front {
+    transform-origin: 0 50% 0;
+    transform-style: preserve-3d;
+    transform: rotateY(-180deg);
+    z-index: 2;
+}
+.total__cart-page-outside,
+.total__cart-page-inside {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+}
+.total__cart-page-outside {
+    background-color: #43474d;
+    background-image: url(../../../images/total/free-icon-endbook.png);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    
+}
+
+.total__cart-page-inside,
+.total__cart-page-bottom {
+    background-color: #a8a89c;
+    border: black 2px solid;
+    border-radius: 10%;
+    display: flex;
+    font-size: 50px;
+    padding-bottom: 20px;
+    
+}
+.total__cart-page-bottom img{
+    width: 48px;
+    padding-top: 20px;
+}
+
+.total__cart-page-inside {
+    transform: rotateY(-180deg);
+    border-right: none;
+    background-position: 0px 80px;
+}
+.total__cart-page-bottom {
+    z-index: 1;
+    border-left: none;
+    background-position:  80px;
+    
+}
+.total__cart-page-bottom p {
+    line-height: 1.4;
+}
+
+.total__inside-icon img {
+    width: 48px;
+    height: auto;
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 919px) {
+    .total__card-page {
+        width: 55px;
+        height: 65px;
+    }
+    .total__cart-page-bottom {
+        font-size: 12px;
+        
+    }
+    .total__inside-icon img {
+        width: 40px;
+        height: auto;
+    }
+    
+}

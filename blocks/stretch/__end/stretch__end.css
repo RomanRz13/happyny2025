@@ -1,0 +1,6 @@
+.stretch__end {
+    display: flex;
+    justify-content: end;
+    max-width: 28%;
+    margin-right: 50px;
+}

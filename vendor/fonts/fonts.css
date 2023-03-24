@@ -1,0 +1,16 @@
+@font-face {
+	src: url('./Pacifico/Pacifico-Regular.ttf');
+	font-family: 'pacifico';
+  
+}
+@font-face {
+  src: url("./Amatic_SC/AmaticSC-Regular.ttf"); 
+  font-weight: 400;
+  font-family: 'amatic';
+
+}
+@font-face {
+    src: url("./Amatic_SC/AmaticSC-Bold.ttf"); 
+    font-weight: 700;
+    font-family: 'amatic-bold';
+  }

@@ -1,0 +1,21 @@
+.cooking__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items:center ;
+    color: #dde2ea;
+    margin: 0 auto;
+   
+}
+
+@media screen and (max-width: 630px) {
+    .cooking__title{
+        flex-direction: column;
+        justify-content: center;
+        align-self:center;
+        align-items: center;
+       
+        
+    }
+}
