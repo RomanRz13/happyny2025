@@ -1,0 +1,19 @@
+@keyframes run {
+    0%{transform: none;}
+    100%{transform: translateX(950px);
+    }
+}			
+
+@-webkit-keyframes run {
+    0%{transform: none;}
+    100%{transform: translateX(950px);
+    }
+}	
+
+@media screen and (max-width: 984px) {
+    @keyframes run {
+        0%{transform: none;}
+        100%{transform: translateX(700px);
+        }
+    }			
+}

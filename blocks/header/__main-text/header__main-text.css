@@ -1,0 +1,22 @@
+.header__main-text{
+max-width: 720px;
+margin: 0 auto;
+}
+
+.header__main-text:nth-last-child{
+padding: 50px 0 0 0;
+}
+
+@media screen and (max-width: 1124px) {
+    .header__main-text {
+        max-width: 640px;
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .header__main-text{
+        max-width: 480px;
+        margin: 30px 20px 0;
+    }
+}

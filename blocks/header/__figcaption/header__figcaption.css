@@ -1,0 +1,15 @@
+.header__figcaption {
+    margin: -80px 0 0 20px;
+    font-family: 'pacifico';
+    line-height: 25px;
+    font-size: 25px;
+    color: black;
+    z-index: 2;
+}
+
+@media screen and (max-width: 630px) {
+    .header__figcaption {
+        line-height: 20px;
+        font-size: 20px;
+    }
+}

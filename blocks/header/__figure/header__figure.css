@@ -1,0 +1,21 @@
+.header__figure{
+    max-width: 377px;
+    height: 530px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+@media screen and (max-width: 919px) {
+    .header__figure {
+        max-height: 430px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .header__figure{
+        max-width: 350px;
+        max-height: 410px;
+        align-items: center;
+        align-self: center;
+    }
+}

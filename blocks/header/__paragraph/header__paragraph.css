@@ -1,0 +1,29 @@
+.header__paragraph {
+    max-width: 720px;
+    width: 100%;
+    line-height: 1.2;
+    font-size:  36px;
+    font-weight: normal;
+    color: #dde2ea;
+    font-family: 'amatic-bold';
+    align-self: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+
+@media screen and (max-width: 919px) {
+    .header__paragraph {
+        font-size: 25px;
+        line-height: 1.1;
+        
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .header__paragraph{
+        font-size: 23px;
+        line-height: 1;
+    }
+}
