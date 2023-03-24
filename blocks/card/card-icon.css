@@ -121,7 +121,7 @@
     height: auto;
     padding-top: 25px;
     -webkit-animation: pulsing 1s 3;
-    animation: pulsing 1s 3;
+    animation: pulsing 1s infinite;
 }
 
 @-webkit-keyframes pulsing {
