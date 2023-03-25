@@ -17,6 +17,7 @@
 @media screen and (max-width: 919px) {
     .header__icon-car {
 		max-width: 64px;
+        margin-top: 50px;
     }
 }
 
